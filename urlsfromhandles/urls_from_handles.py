@@ -13,7 +13,7 @@ names = ["ghhandle1", "ghhandle2"]
 
 def urls_from_handles(list_of_names):
     output_list = []
-    for items in names:
+    for items in list_of_names:
         output_list +=[ "https://github.com/greenfox-academy/" + items ]
     print(output_list)
 
