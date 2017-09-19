@@ -33,4 +33,5 @@ The application is accepted if:
 
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer:
-[add your answer here]
+
+An ID is refers to a single element on the page, what takes the style. The CLASS can refer to multiple elements, trough the page, and all of the elements in the same class take the style.
