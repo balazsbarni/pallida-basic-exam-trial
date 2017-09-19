@@ -5,4 +5,17 @@
 # example: "elek.viz@exam.com" for this input the output should be: "Viz Elek"
 # accents does not matter
 
-print(name_from_email("elek.viz@exam.com"))
+#print(name_from_email("elek.viz@exam.com"))
+
+
+email_adress = str(input("Please enter ypur e-mail adress: "))
+
+
+def name_from_email(entered_email_adress):   
+    forename =entered_email_adress[entered_email_adress.index(".") :entered_email_adress.index("@")]
+    name =entered_email_adress[:entered_email_adress.index(".")]
+    return forename[1].upper() +forename[2:] + " " + name[0].upper() +name[1:]
+
+print(name_from_email(email_adress))
+
+
