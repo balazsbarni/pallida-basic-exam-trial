@@ -14,13 +14,21 @@ def add_word(hun_word, eng_word,dict):
 # word form the list 'dictionary'
 
 
-def translate_to_hun(eng_word):
-    pass
+def translate_to_eng(hun_word, diction):
+    for items in diction:
+        if hun_word in items:
+            print(items)
+    
 
 
-def translate_to_eng(hun_word):
+
+#def translate_to_eng(hun_word):
     pass
 
 
 add_word("paradicsom", "tomato" , dictionary)
-print(dictionary)
+#print(dictionary)
+
+translate_to_eng("alma" , dictionary)
+
+
